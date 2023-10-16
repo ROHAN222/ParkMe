@@ -1,0 +1,40 @@
+.smallText {
+  color: rgb(185, 187, 207);
+  font-size: 12px;
+}
+
+.slot {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  color: white;
+  padding: 0.5rem 2rem;
+  justify-content: space-around;
+  margin: 10px;
+  height: 60px;
+  align-items: center;
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: rgb(1, 138, 92);
+  animation: fadeIn 0.9s 1;
+  animation-fill-mode: forwards;
+}
+
+.fade-item {
+  transition: 0.2s all ease-in-out;
+  opacity: 0;
+}
+
+.fadein {
+  animation: fadeIn 0.5s 2;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

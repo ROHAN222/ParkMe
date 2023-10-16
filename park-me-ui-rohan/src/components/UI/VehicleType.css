@@ -1,0 +1,30 @@
+.vehicle-type {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  color: white;
+  padding: 0.75rem 3rem;
+  justify-content: space-around;
+  margin: 10px;
+  height: 100px;
+  align-items: center;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.vehicle-type:hover,
+.vehicle-type:active {
+  background-color: #2c0d00;
+}
+
+.small {
+  background-color: rgb(114, 155, 108);
+}
+
+.medium {
+  background-color: rgb(34, 94, 26);
+}
+
+.large {
+  background-color: rgb(15, 37, 12);
+}
